@@ -28,3 +28,5 @@ Custom EC2/ALB - must be public ( need to allow edge location IPs in SG)
 * lambda @ edge 
   - lambda is deployed in cloudfront and can change cloudfront requests and responses 
   - no caching 
+  - intercept request and check authentication and autorization 
+  - dynamic web application at the edge 
