@@ -31,3 +31,7 @@ Custom EC2/ALB - must be public ( need to allow edge location IPs in SG)
   - intercept request and check authentication and autorization 
   - dynamic web application at the edge 
     https://aws.amazon.com/blogs/networking-and-content-delivery/lambdaedge-design-best-practices/ 
+
+* Redis vs Memcache
+  - Memcache - non persistent, no backup and restore
+  - Redis - like RDS 
