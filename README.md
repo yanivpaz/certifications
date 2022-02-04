@@ -15,10 +15,11 @@ Custom EC2/ALB - must be public ( need to allow edge location IPs in SG)
 * cache based on http headers/session cookies/Query string  
 
 
-* baetter caching
+* Improve Cloudfront  caching
   - less headers values and whitelist headers
   - two caches : split static and dynamic content 
 
+* Cloudfornt,APIGW  - 100000 TPS 
 
 * cloudfront caching vs api gateway caching 
   - api gateway edge
