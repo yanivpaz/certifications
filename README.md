@@ -1,4 +1,9 @@
 # Certifications
+## SQS
+* Consumer need to implement idempotency as messages can appear twice
+* Lambda event source mapping - use polling ( 1-10 message)
+* sns-> several SQS = common practice 
+
 ## Route53
 * Routing
   - Simple - no health , client will select random in case of multiple records
