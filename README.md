@@ -13,7 +13,16 @@ Limits
 - 1000 concurrent by default 
 - cold (100ms ) vs waorm (ms ) invocation time
 - APIGW , Cloudfront - 100 ms invocation 
-- 
+
+Invocation 
+ - Synchronous
+ - ASynchronous - S3,SNS,CW events - 3 retrys .
+ - Event Source mapping - Kinesis Data streams,SQS , DynmoDB  streams - reprocess until success 
+
+Destionation 
+
+
+Use DLQ for failure
 
 ## Cloudfront 
 ### Cloudfront origin
