@@ -37,11 +37,15 @@ Custom EC2/ALB - must be public ( need to allow edge location IPs in SG)
   - Memcache - non persistent, no backup and restore
   - Redis - like RDS 
 
-
 ## S3 
-
 ### Encryption 
 - SSE S3
 - SSE KMS
-- SSE C
+- SSE C ( enforce https)
 - Client side
+
+### Events
+- S3 access logs ( might take hours )
+- S3 Events notifications 
+- Trusted advisor
+- Cloudwatch events 
