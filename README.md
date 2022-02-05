@@ -29,6 +29,14 @@ Version
 
 Use DLQ for failure
 
+Codedeploy integration 
+- Linear
+- Canary 
+- All at once 
+
+Can create pre and post Lambda hooks to check health of the Lambda function 
+
+
 ## Cloudfront 
 ### Cloudfront origin
 - S3 bucket 
