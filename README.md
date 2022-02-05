@@ -70,5 +70,5 @@ Type of attacks
 - WAF ACL
   * rules on ip address 
   * Size/geo  constraints  
-- WAF - ALB/APIGW/Cloudfront 
+- WAF - ALB/APIGW/AppSync OR Cloudfront 
  
