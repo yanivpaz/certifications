@@ -1,4 +1,12 @@
 # Certifications
+## Route53
+* Routing
+  - Simple - no health , client will select random in case of multiple records
+  - Weighthed - can be associated with health checks 
+  - Active - passive ( if primary health check failes)
+  - Latency  + failover 
+  - Geo location 
+  - Complex - nested records  
 
 ## Load balancers 
 
