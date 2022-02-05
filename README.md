@@ -72,3 +72,6 @@ Type of attacks
   * Size/geo  constraints  
 - WAF - ALB/APIGW/AppSync OR Cloudfront 
  
+## AWS config
+- remdiation using SSM automation 
+- Rules can trigger cloudwatch event with can trigger Lambda 
