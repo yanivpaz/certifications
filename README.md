@@ -2,11 +2,21 @@
 
 ## Load balancers 
 
-- ALB
+* ALB
+  - 400 ms latency
   - routes according to routes
   - hostnames
   - query strings in http headers 
-
+  - ALB + lambda vs APIGW + lambda 
+  - ALB trgets - ec2/ecs/lamnda/ip address 
+  - SNI - support multiple certificate
+  
+* NLB
+  - 100 ms latency 
+  - onr static IP per AZ
+  - extreme perfomence
+  - cant used lambda express 
+  
 ## Lambda 
 * docker dont use Lambda - but  ECS , Batch , Fargate 
 
