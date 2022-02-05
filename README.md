@@ -23,6 +23,9 @@ Destionations
  - Asynchrinztion invocation - successful events only -  SQS/SNS/another Lambda/EventBridge bus (similar to DLQ . destinations is the recommended )
  - Event Source mapping -  discarded events only - SQS/SNS
 
+Version 
+ - code 
+ - configuration ( resources , env variables ) 
 
 Use DLQ for failure
 
