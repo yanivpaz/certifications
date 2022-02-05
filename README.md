@@ -21,7 +21,17 @@
   - not cross az by default
   - pay for inter AZ data if enabled 
   - no stickiness 
-  
+ 
+# API GW
+  - Why - rate limiting , cachine , user autentication 
+  - timoue is 29 seconds 
+  - 10MB pay loads 
+  - API changes are deployed to stages 
+  - Integrations
+    * http
+    * Lambda
+    * AWS service  (SQS , step function) 
+ 
 ## Lambda 
 * docker dont use Lambda - but  ECS , Batch , Fargate 
 
