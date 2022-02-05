@@ -75,3 +75,12 @@ Type of attacks
 ## AWS config
 - remdiation using SSM automation 
 - Rules can trigger cloudwatch event with can trigger Lambda 
+
+
+## Guard duty 
+Input :
+- Cloud trail logs 
+- VPC flow logs 
+- DNS logs 
+
+Notify Cloud watch events
