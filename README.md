@@ -59,6 +59,7 @@
   - Errors
      - client 4XX - 403 WAD filtererd , 429 Quota 
      - server 5XX  -504 backend didnt answer more than 29 seconds     
+  -Soft limit : 10000 api per second
  
 ## Lambda 
 * docker dont use Lambda - but  ECS , Batch , Fargate 
@@ -69,7 +70,7 @@ Limits
  - 15 minutes
  - /tmp id 512MB
  - deploymenyt package is 250MB
- - 1000 concurrent by default 
+ - soft limit : 1000 concurrent by default 
  - cold (100ms ) vs waorm (ms ) invocation time
  - APIGW , Cloudfront - 100 ms invocation 
 
