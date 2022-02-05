@@ -20,6 +20,7 @@
   - cant used lambda express 
   - not cross az by default
   - pay for inter AZ data if enabled 
+  - no stickiness 
   
 ## Lambda 
 * docker dont use Lambda - but  ECS , Batch , Fargate 
