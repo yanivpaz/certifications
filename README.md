@@ -1,5 +1,9 @@
 # certifications
 
+## Lambda 
+## Runtime
+* docker - ECS , Batch , Fargate 
+
 ## Cloudfront 
 ### Cloudfront origin
 - S3 bucket 
