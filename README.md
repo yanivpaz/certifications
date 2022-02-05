@@ -5,21 +5,23 @@
 * docker - ECS , Batch , Fargate 
 
 Limits 
-- RAM 128MB - 3GB
-- CPU linked to RAM ( 1.5GB more CPU is added )
-- 15 minutes
-- /tmp id 512MB
-- deploymenyt package is 250MB
-- 1000 concurrent by default 
-- cold (100ms ) vs waorm (ms ) invocation time
-- APIGW , Cloudfront - 100 ms invocation 
+ - RAM 128MB - 3GB
+ - CPU linked to RAM ( 1.5GB more CPU is added )
+ - 15 minutes
+ - /tmp id 512MB
+ - deploymenyt package is 250MB
+ - 1000 concurrent by default 
+ - cold (100ms ) vs waorm (ms ) invocation time
+ - APIGW , Cloudfront - 100 ms invocation 
 
 Invocation 
  - Synchronous
  - ASynchronous - S3,SNS,CW events - 3 retrys .
- - Event Source mapping - Kinesis Data streams,SQS , DynmoDB  streams - reprocess until success 
+ - Event Source mapping - polling from Kinesis Data streams,SQS , DynmoDB  streams - reprocess until success 
 
-Destionation 
+Destionations
+ - Asynchrinztion invocation - successful events only -  SQS/SNS/another Lambda/EventBridge bus (similar to DLQ . destinations is the recommended )
+ - Event Source mapping -  discarded events only - SQS/SNS
 
 
 Use DLQ for failure
