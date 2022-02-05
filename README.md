@@ -84,3 +84,18 @@ Input :
 - DNS logs 
 
 Notify Cloud watch events
+
+
+## AWS orgnization policies 
+
+AI services opt-out policies
+Artificial Intelligence (AI) services opt-out policies enable you to control whether AWS AI services can store and use your content.Learn more 
+
+Backup policies
+Backup policies enable you to deploy organization-wide backup plans to help ensure compliance across your organization's accounts. Using policies helps ensure consistency in how you implement your backup plans.Learn more 
+
+Service control policies
+Service control policies (SCPs) enable central administration over the permissions available within the accounts in your organization. This helps ensure that your accounts stay within your organization’s access control guidelines.Learn more 
+
+Tag policies
+Tag policies help you standardize tags on all tagged resources across your organization. You can use tag policies to define tag keys (including how they should be capitalized) and their allowed values.Learn more 
