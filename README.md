@@ -11,6 +11,9 @@ Limits
 - /tmp id 512MB
 - deploymenyt package is 250MB
 - 1000 concurrent by default 
+- cold (100ms ) vs waorm (ms ) invocation time
+- APIGW , Cloudfront - 100 ms invocation 
+- 
 
 ## Cloudfront 
 ### Cloudfront origin
