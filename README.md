@@ -4,6 +4,14 @@
 ## Runtime
 * docker - ECS , Batch , Fargate 
 
+Limits 
+- RAM 128MB - 3GB
+- CPU linked to RAM ( 1.5GB more CPU is added )
+- 15 minutes
+- /tmp id 512MB
+- deploymenyt package is 250MB
+- 1000 concurrent by default 
+
 ## Cloudfront 
 ### Cloudfront origin
 - S3 bucket 
