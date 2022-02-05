@@ -99,3 +99,8 @@ Service control policies (SCPs) enable central administration over the permissio
 
 Tag policies
 Tag policies help you standardize tags on all tagged resources across your organization. You can use tag policies to define tag keys (including how they should be capitalized) and their allowed values.Learn more 
+
+
+## EC2
+### placement group stratgies
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/placement-groups.html
