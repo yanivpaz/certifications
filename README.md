@@ -49,3 +49,18 @@ Custom EC2/ALB - must be public ( need to allow edge location IPs in SG)
 - S3 Events notifications 
 - Trusted advisor
 - Cloudwatch events 
+
+
+## Security 
+Type of attacks
+- DDOS - infra level layer 3/4  -> Shield 
+- Application level ( it http , invalidtiang cache etc)  
+
+- Shield - R53/ALB/ENI/Cloudfront 
+- Shield advanced - 3000$ , against more sophisticated attacks
+- WAF is layer 7 - sql injection , , can help in DDos if rules defined 
+- WAF ACL
+  * rules on ip address 
+  * Size/geo  constraints  
+- WAF - ALB/APIGW/Cloudfront 
+ 
