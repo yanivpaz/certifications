@@ -10,12 +10,16 @@
   - ALB + lambda vs APIGW + lambda 
   - ALB trgets - ec2/ecs/lamnda/ip address 
   - SNI - support multiple certificate
+  - always cross zone 
+  - no charges for inter AZ data 
   
 * NLB
   - 100 ms latency 
   - onr static IP per AZ
   - extreme perfomence
   - cant used lambda express 
+  - not cross az by default
+  - pay for inter AZ data if enabled 
   
 ## Lambda 
 * docker dont use Lambda - but  ECS , Batch , Fargate 
