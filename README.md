@@ -1,8 +1,11 @@
-# certifications
+# Certifications
+
+## Load balancers 
+
+
 
 ## Lambda 
-## Runtime
-* docker - ECS , Batch , Fargate 
+* docker dont use Lambda - but  ECS , Batch , Fargate 
 
 Limits 
  - RAM 128MB - 3GB
