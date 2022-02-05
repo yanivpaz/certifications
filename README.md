@@ -9,6 +9,13 @@
   - Complex - nested records  
   - Multi value 
 
+* Health check 
+  - text search in the first 5120 bytes
+  - pass codes is: 2XX 3XX 
+  - Calculated health check - check other health check 
+  - can access private endpoints 
+  - Can create CW metric + alarms . health check can check the alarm .
+ 
 ## Load balancers 
 
 * ALB
