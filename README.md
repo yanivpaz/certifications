@@ -31,6 +31,18 @@
     * http
     * Lambda
     * AWS service  (SQS , step function) 
+   - Endpoints :
+      - Edge optimized  - default - through cloudfront 
+      - Regional
+      - Private - per VPC 
+  - Gateway Cache 
+     - per stage
+     - per mthod 
+     - Client to bypass (max-age=0 in cache-control header ) cache 
+     - API GW cache - TTL 5 min by default  TTL 0 - no cache
+  - Errors
+     - client 4XX - 403 WAD filtererd , 429 Quota 
+     - server 5XX  -504 backend didnt answer more than 29 seconds     
  
 ## Lambda 
 * docker dont use Lambda - but  ECS , Batch , Fargate 
