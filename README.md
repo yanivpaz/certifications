@@ -2,7 +2,10 @@
 
 ## Load balancers 
 
-
+- ALB
+  - routes according to routes
+  - hostnames
+  - query strings in http headers 
 
 ## Lambda 
 * docker dont use Lambda - but  ECS , Batch , Fargate 
