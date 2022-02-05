@@ -1,6 +1,7 @@
 # certifications
 
-## Cloudfront origin
+## Cloudfront 
+### Cloudfront origin
 - S3 bucket 
 - S3 web site
 - Custom Origin ( ALB/on prem http)
@@ -35,3 +36,12 @@ Custom EC2/ALB - must be public ( need to allow edge location IPs in SG)
 * Redis vs Memcache
   - Memcache - non persistent, no backup and restore
   - Redis - like RDS 
+
+
+## S3 
+
+### Encryption 
+- SSE S3
+- SSE KMS
+- SSE C
+- Client side
