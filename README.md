@@ -36,6 +36,14 @@ Custom EC2/ALB - must be public ( need to allow edge location IPs in SG)
 * Redis vs Memcache
   - Memcache - non persistent, no backup and restore
   - Redis - like RDS 
+## Blocking IP address 
+*  Blocking IP with NLB can bw done
+  - no SG for NACL
+  - SG group - allow 
+  - Deny one address - only NACL 
+* ALB + WAF
+  - more expensive 
+  - rules  
 
 ## S3 
 ### Encryption 
