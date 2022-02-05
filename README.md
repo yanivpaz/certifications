@@ -1,6 +1,6 @@
 # Certifications
 ## Step function 
-Taks 
+Tasks: 
 -lambda
 -http
 -service task - Batch , SNS , SQS, Dymo DB ,ECS task 
