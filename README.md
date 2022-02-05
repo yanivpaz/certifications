@@ -7,6 +7,7 @@
   - Latency  + failover 
   - Geo location 
   - Complex - nested records  
+  - Multi value 
 
 ## Load balancers 
 
