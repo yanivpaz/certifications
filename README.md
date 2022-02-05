@@ -1,4 +1,13 @@
 # Certifications
+## Step function 
+Taks 
+-lambda
+-http
+-service task - Batch , SNS , SQS, Dymo DB ,ECS task 
+-wait 
+
+AWS mechanical turk - use SWF only
+
 ## SQS
 * Consumer need to implement idempotency as messages can appear twice
 * Lambda event source mapping - use polling ( 1-10 message)
