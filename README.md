@@ -1,4 +1,9 @@
 # Certifications
+## Storage Gateway
+- File Gateway - EFS backed by S3
+- Volume Gateway - local disk
+- Tape  - Glacier 
+
 ## Step function 
 Tasks: 
 -lambda
