@@ -1,5 +1,11 @@
 # Certifications
-## Storage Gateway
+# Snow
+- Data migration 
+   - snowcone , snowball edge  ,snow mobile
+- Edge Computing 
+  -  snowcone , snowball edge 
+
+# Storage Gateway
 - File Gateway(applicance)  - EFS backed by S3 - can restore single file
 - Volume Gateway - local disk - need to restore all to access file
   * cached - full data on s3 
