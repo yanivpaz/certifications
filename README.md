@@ -1,5 +1,10 @@
 # Certifications
 
+## VPN
+- site to site 
+  - Static routing  (define routes)
+  - Dynamic routing BGP ( define ASN in CGW on prem and VGW in AWS ) 
+
 ## DR
 - RPO - backup
 - RTP - recover time
