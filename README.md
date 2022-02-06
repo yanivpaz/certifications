@@ -1,4 +1,14 @@
 # Certifications
+## Migration services 
+
+Application discovery service
+- agentless discovery
+- agent based discovery
+
+SMS - server migration serivce ( replace vm export /import):
+- vSphere.hyperV ,Azure
+- increment replication of live servers
+
 ## Database migration 
 - DMS - copy from source to data (only S3 and RDS can be source out of AWS services)
 - SCT - schema migration when changeing the DB engine 
