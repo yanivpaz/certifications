@@ -1,10 +1,10 @@
 # Certifications
 ## Storage Gateway
-- File Gateway(applicance)  - EFS backed by S3
-- Volume Gateway - local disk 
+- File Gateway(applicance)  - EFS backed by S3 - can restore single file
+- Volume Gateway - local disk - need to restore all to access file
   * cached - full data on s3 
   * stored - scheduled backup to s3
-- Tape  - Glacier 
+- Tape  - Glacier - need to restore all to access file
 
 ## Step function 
 Tasks: 
