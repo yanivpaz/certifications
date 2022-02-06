@@ -1,7 +1,9 @@
 # Certifications
 ## Storage Gateway
-- File Gateway - EFS backed by S3
-- Volume Gateway - local disk
+- File Gateway(applicance)  - EFS backed by S3
+- Volume Gateway - local disk 
+  * cached - full data on s3 
+  * stored - scheduled backup to s3
 - Tape  - Glacier 
 
 ## Step function 
