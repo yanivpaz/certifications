@@ -1,4 +1,12 @@
 # Certifications
+## Kinesis
+- Streams ->Analytics ->Firehose
+- Streams   - shards ( up to 7 days)
+- Analytics 
+- Firehose
+
+multiple application can caonsume same stream unlike SQS
+Messages are immutable and cant be deleted 
 
 ## VPN
 - site to site (software VPN is needed on premise)
