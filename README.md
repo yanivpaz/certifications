@@ -1,7 +1,9 @@
 # Certifications
 # Snow
 - Data migration 
-   - snowcone , snowball edge  ,snow mobile
+   - snowcone - small , light - 8 TB
+   - snowball edge  80 TB storage/42 TB compute 
+   - snow mobile - truck - 1EX- 1000000 TB
 - Edge Computing 
   -  snowcone , snowball edge 
 
