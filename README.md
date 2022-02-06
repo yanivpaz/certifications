@@ -1,5 +1,9 @@
 # Certifications
-# Snow
+## Database migration 
+- DMS - copy from source to data (only S3 and RDS can be source out of AWS services)
+- SCT - schema migration when changeing the DB engine 
+
+## Snow
 - Data migration 
    - snowcone - small , light - 8 TB
    - snowball edge  80 TB storage 40 vcpu 80 Gib RAM /42 TB compute ,52vcpu ,208 Gib RAM
@@ -8,7 +12,7 @@
   -  snowcone 
   -  snowball edge 
 
-# Storage Gateway
+## Storage Gateway
 - File Gateway(applicance)  - EFS backed by S3 - can restore single file
 - Volume Gateway - local disk - need to restore all to access file
   * cached - full data on s3 
