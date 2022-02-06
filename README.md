@@ -2,10 +2,11 @@
 # Snow
 - Data migration 
    - snowcone - small , light - 8 TB
-   - snowball edge  80 TB storage/42 TB compute 
+   - snowball edge  80 TB storage 40 vcpu 80 Gib RAM /42 TB compute ,52vcpu ,208 Gib RAM
    - snow mobile - truck - 1EX- 1000000 TB
 - Edge Computing 
-  -  snowcone , snowball edge 
+  -  snowcone 
+  -  snowball edge 
 
 # Storage Gateway
 - File Gateway(applicance)  - EFS backed by S3 - can restore single file
