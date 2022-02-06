@@ -1,6 +1,16 @@
 # Certifications
-## Migration services 
 
+## DR
+- RPO - backup
+- RTP - recover time
+
+stratgies
+- backup and restore
+- pilot light
+- warm standby
+- Hot site
+
+## Migration services 
 Application discovery service
 - agentless discovery
 - agent based discovery
