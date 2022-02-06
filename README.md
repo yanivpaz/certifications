@@ -1,9 +1,12 @@
 # Certifications
 
 ## VPN
-- site to site 
+- site to site (software VPN is needed on premise)
   - Static routing  (define routes)
   - Dynamic routing BGP ( define ASN in CGW on prem and VGW in AWS ) 
+
+- client VPN  - using open VPN
+- software VPN - on prem and AWS 
 
 ## DR
 - RPO - backup
