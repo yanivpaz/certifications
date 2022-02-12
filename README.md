@@ -1,11 +1,11 @@
 # CKS
 
-App Armor
+* App Armor
 
-Seccomp - static code analsys for K8s manifests 
+* Seccomp - static code analsys for K8s manifests 
 
-kubesec 
+* kubesec - static code analsys -  https://kubesec.io/
 
-Trivy
+* Trivy
 
-Kube-bench
+* Kube-bench
