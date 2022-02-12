@@ -16,3 +16,8 @@
 * Trivy
 
 * Kube-bench
+
+* Falco 
+  - Two modes
+     * Kernel mode - not always allowed 
+     * eBPF - less intrusive 
