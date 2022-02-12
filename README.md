@@ -1,4 +1,8 @@
 # CKS
+## K8s premitivs 
+* Network policies 
+* 
+
 ## Tracing
 * Tracy - 
 *
