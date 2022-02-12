@@ -1,6 +1,7 @@
 # CKS
 ## K8s premitivs 
 * Network policies 
+  - if no network policies - everything is allowed 
 * 
 
 ## Tracing
