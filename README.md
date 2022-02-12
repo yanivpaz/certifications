@@ -20,6 +20,8 @@
 * Falco 
   - install (can be DS or process on the host)
   https://falco.org/docs/getting-started/download/
+  https://github.com/falcosecurity/falco/blob/master/rules/falco_rules.yaml
+  https://falco.org/docs/rules/supported-fields/
   - Two modes
      * Kernel mode - not always allowed 
      * eBPF - less intrusive 
