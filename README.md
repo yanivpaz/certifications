@@ -18,7 +18,7 @@
 * Kube-bench
 
 * Falco 
-  - install 
+  - install (can be DS or process on the host)
   https://falco.org/docs/getting-started/download/
   - Two modes
      * Kernel mode - not always allowed 
