@@ -1,2 +1,4 @@
 - AWS Sheild - DDOS
 - WAF ACL - 
+  - global - cloud front
+  - regional APIG/ALB
