@@ -23,6 +23,8 @@ Assess, audit, and evaluate the configurations of your AWS resources.
 
 AWS Sheild 
 
+AWS Inspector 
+
 
 
 - AWS Sheild - DDOS
