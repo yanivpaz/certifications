@@ -2,7 +2,9 @@
 ## Incident response
 prepare ,detect , containment , investigation , recovery, lessoned learned )
 ### Detect 
-1. AWS console login error - cloudwatch and cloudtrail
+1. AWS console login error
+ - cloudwatch and cloudtrail
+ - aws config to detect changes
 
 
 ### containment
