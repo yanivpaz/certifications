@@ -1,3 +1,11 @@
+Incident response
+logging and monitoring
+Infra security
+IAM 
+data protection
+
+
+
 AWS Security Hub
 
 Amazon GuardDuty 
