@@ -28,6 +28,12 @@ prepare ,detect , containment , investigation , recovery, lessoned learned )
 https://docs.google.com/document/d/1uv2T_huTXApm9Pu7fSz2D8Ir6gvHjC8wyiNy792LHTY/edit?usp=sharing  
 
 
+### AWS security hub
+* Guard duty
+* AWS inspector
+* AWS Macie
+
+
 ### Infra security
 ### IAM 
 ### Data protection
