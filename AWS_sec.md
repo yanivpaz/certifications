@@ -92,3 +92,5 @@ set RHOST
 webcam_snap
 ```
 https://www.udemy.com/course/aws-certified-security-specialty/learn/lecture/7889384#announcements
+
+CVE - updated from national vulnerability database 
