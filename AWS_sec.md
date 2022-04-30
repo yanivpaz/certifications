@@ -5,9 +5,11 @@
 2. Add deny all so temp credantials will not be valid 
 
 ### EC2 
-1.  isolate the ec2 instance  (ie ingress only from specific machine , block egress)
-2. memory and ebs snapshots 
-3. 
+1. isolate the ec2 instance  (ie ingress only from specific machine , block egress)
+2. memory dump
+3. ebs snapshots 
+4. perform forensic analysis
+5. terminate the isntance 
 
 
 ## logging and monitoring
