@@ -42,15 +42,21 @@ https://docs.google.com/document/d/1uv2T_huTXApm9Pu7fSz2D8Ir6gvHjC8wyiNy792LHTY/
 
 Rule
 contain : statement , condition , action 
-- regular rule
+- regular rule ( predefined rules / extrenal providers / my own rules ) 
 - rated base rule ( ie - 100  request in 1 minute)
 
 can be associated
--ALB
--API GW
--App sync 
--Cloudfront 
+-  ALB
+- API GW
+- App sync 
+- Cloudfront 
 
+#### AWS Firewall manager 
+- manage WAF rules 
+- Prerequistits :
+  Enable AWS Orgnization 
+  Enable AWS config in all the accounts
+  Designate an AWS account as Firewall admin 
 
 ### IAM 
 ### Data protection
