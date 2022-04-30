@@ -28,10 +28,15 @@ prepare ,detect , containment , investigation , recovery, lessoned learned )
 
 
 ## AWS tools
-AWS Security Hub
+### AWS Security Hub
 
-Amazon GuardDuty 
+### Amazon GuardDuty 
 Threat detection and continuous monitoring of your AWS Accounts.
+Using
+* Cloud trail
+* VPC flow log
+* DNS log 
+* EKS ( new)
 
 Amazon Inspector 
 Analyze the behavior of your AWS resources and identify potential security issues.
