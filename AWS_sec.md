@@ -38,6 +38,18 @@ https://docs.google.com/document/d/1uv2T_huTXApm9Pu7fSz2D8Ir6gvHjC8wyiNy792LHTY/
 * External providers 
 
 ### Infra security
+#### AWS WAF
+
+Rule
+contain : statement , condition , action 
+- regular rule
+- rated base rule ( ie - 100  request in 1 minute)
+
+can be associated
+-ALB
+-Cloudfront 
+-API GW
+
 ### IAM 
 ### Data protection
 
