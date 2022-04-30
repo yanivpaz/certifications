@@ -10,14 +10,13 @@
 3. 
 
 
+## logging and monitoring
+## Infra security
+## IAM 
+## Data protection
+
+
 ```
-logging and monitoring
-Infra security
-IAM 
-data protection
-
-
-
 AWS Security Hub
 
 Amazon GuardDuty 
