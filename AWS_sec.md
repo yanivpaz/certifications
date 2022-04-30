@@ -105,3 +105,4 @@ https://www.udemy.com/course/aws-certified-security-specialty/learn/lecture/7889
 CVE - updated from national vulnerability database 
 https://nvd.nist.gov/  
 
+https://owasp.org/www-project-top-ten/
