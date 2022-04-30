@@ -1,6 +1,9 @@
 
 ## Incident response
+
+https://docs.google.com/document/d/11_1lNSNMI7tRTmfBR74FOkaQbDfVZPZ7u0H4tFXRrGs/edit?usp=sharing
 prepare ,detect , containment , investigation , recovery, lessoned learned )
+
 ### Detect 
 1. AWS console login error
  - cloudwatch and cloudtrail
@@ -37,6 +40,8 @@ Using
 * VPC flow log
 * DNS log 
 * EKS ( new)
+
+findings example - https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_finding-types-active.html
 
 Amazon Inspector 
 Analyze the behavior of your AWS resources and identify potential security issues.
