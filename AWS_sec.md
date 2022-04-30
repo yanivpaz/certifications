@@ -47,8 +47,10 @@ contain : statement , condition , action
 
 can be associated
 -ALB
--Cloudfront 
 -API GW
+-App sync 
+-Cloudfront 
+
 
 ### IAM 
 ### Data protection
