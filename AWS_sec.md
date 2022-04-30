@@ -32,7 +32,7 @@ https://docs.google.com/document/d/1uv2T_huTXApm9Pu7fSz2D8Ir6gvHjC8wyiNy792LHTY/
 * Guard duty
 * AWS inspector
 * AWS Macie
-
+* AWS config for CIS / PCI checks 
 
 ### Infra security
 ### IAM 
