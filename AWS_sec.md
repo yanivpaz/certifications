@@ -52,11 +52,14 @@ can be associated
 - Cloudfront 
 
 #### AWS Firewall manager 
-- manage WAF rules 
-- Prerequistits :
-  Enable AWS Orgnization 
-  Enable AWS config in all the accounts
-  Designate an AWS account as Firewall admin 
+* manage 
+  - WAF rules
+  - Sheild advanced 
+  - Security group 
+* Prerequistits :
+  - Enable AWS Orgnization 
+  - Enable AWS config in all the accounts
+  - Designate an AWS account as Firewall admin 
 
 ### IAM 
 ### Data protection
