@@ -25,6 +25,9 @@ prepare ,detect , containment , investigation , recovery, lessoned learned )
 
 
 ### logging and monitoring
+https://docs.google.com/document/d/1uv2T_huTXApm9Pu7fSz2D8Ir6gvHjC8wyiNy792LHTY/edit?usp=sharing  
+
+
 ### Infra security
 ### IAM 
 ### Data protection
