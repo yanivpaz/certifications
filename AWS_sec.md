@@ -1,16 +1,22 @@
 
 ## Incident response
-(prepare ,detect , containment , investigation , recovery, lessoned learned ) 
-### Access keys 
-1. dectivate the keys 
+prepare ,detect , containment , investigation , recovery, lessoned learned )
+### Detect 
+1. AWS console login error - cloudwatch and cloudtrail
+
+
+### containment
+#### Access keys 
+1. deactivate the keys 
 2. Add deny all so temp credantials will not be valid 
 
-### EC2 
+#### EC2 
 1. isolate the ec2 instance  (ie ingress only from specific machine , block egress)
 2. memory dump
 3. ebs snapshots 
 4. perform forensic analysis
 5. terminate the isntance 
+
 
 
 ### logging and monitoring
