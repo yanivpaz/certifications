@@ -12,13 +12,13 @@
 5. terminate the isntance 
 
 
-## logging and monitoring
-## Infra security
-## IAM 
-## Data protection
+### logging and monitoring
+### Infra security
+### IAM 
+### Data protection
 
 
-```
+## AWS tools
 AWS Security Hub
 
 Amazon GuardDuty 
@@ -52,4 +52,4 @@ AWS Inspector
 - WAF ACL - 
   - global - cloud front
   - regional APIG/ALB
-```
+
