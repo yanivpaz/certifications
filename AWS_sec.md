@@ -1,5 +1,6 @@
 
 ## Incident response
+(prepare ,detect , containment , investigation , recovery, lessoned learned ) 
 ### Access keys 
 1. dectivate the keys 
 2. Add deny all so temp credantials will not be valid 
