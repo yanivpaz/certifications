@@ -52,6 +52,8 @@ can be associated
 - Cloudfront 
 
 #### AWS Firewall manager 
+https://youtu.be/u27HLad-Wi8?t=2507  
+
 * manage 
   - WAF rules
   - Sheild advanced 
