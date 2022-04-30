@@ -77,4 +77,6 @@ https://www.splunk.com/en_us/software/user-behavior-analytics.html
 
 Nessus vulnersbility tool 
 meta sploit - penetration testing 
+
 Penetration test require approval ( except sevarl services - EC2,RDS,Cloudfornt , Aurora,APIGW ,Lambda,Lighsail ,Beanstalk) 
+several activities is not allowed at all 
