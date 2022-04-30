@@ -83,3 +83,9 @@ meta sploit - penetration testing
 
 Penetration test require approval ( except sevarl services - EC2,RDS,Cloudfornt , Aurora,APIGW ,Lambda,Lighsail ,Beanstalk) 
 several activities is not allowed at all 
+
+metasploit - use expolits on various software
+```
+search 
+```
+https://www.udemy.com/course/aws-certified-security-specialty/learn/lecture/7889384#announcements
