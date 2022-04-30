@@ -1,5 +1,16 @@
+
+## Incident response
+### Access keys 
+1. dectivate the keys 
+2. Add deny all so temp credantials will not be valid 
+
+### EC2 
+1.  isolate the ec2 instance  (ie ingress only from specific machine , block egress)
+2. memory and ebs snapshots 
+3. 
+
+
 ```
-Incident response
 logging and monitoring
 Infra security
 IAM 
