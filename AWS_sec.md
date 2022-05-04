@@ -1,4 +1,8 @@
 
+## SSO
+
+Identity source can be AWS SSO / Active directory/ External identity provider
+
 ## Incident response
 
 https://docs.google.com/document/d/11_1lNSNMI7tRTmfBR74FOkaQbDfVZPZ7u0H4tFXRrGs/edit?usp=sharing
