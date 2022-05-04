@@ -1,7 +1,9 @@
 
 ## SSO
 Enable SSO for AWS accounts / applications ( ie - Jenkins )  
-Identity source can be AWS SSO / Active directory/ External identity provider
+Identity source can be AWS SSO / Active directory/ External identity provider  
+https://www.pingidentity.com/en/resources/blog/posts/2021/sso-vs-federated-identity-management.html  
+
 
 
 ## Incident response
