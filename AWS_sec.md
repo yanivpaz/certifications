@@ -1,7 +1,8 @@
 
 ## SSO
-
+Enable SSO for AWS accounts / applications ( ie - Jenkins )  
 Identity source can be AWS SSO / Active directory/ External identity provider
+
 
 ## Incident response
 
