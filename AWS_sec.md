@@ -1,3 +1,10 @@
+## Config 
+
+- managed rule  
+- custom lambda rule  
+- custom rule using gurad  
+Create custom rules using Guard Custom Policy that evaluates whether your AWS resources comply with the rule.  
+ 
 
 ## SSO
 Enable SSO for AWS accounts / applications ( ie - Jenkins )  
