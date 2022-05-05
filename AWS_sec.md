@@ -6,6 +6,11 @@
 Create custom rules using Guard Custom Policy that evaluates whether your AWS resources comply with the rule.  
  
 
+trigger :
+- periodic ( 1/3/6/12/24 hours) 
+- when configuration changes
+( all changes , resources , tags - any resource) 
+
 ## SSO
 Enable SSO for AWS accounts / applications ( ie - Jenkins )  
 Identity source can be AWS SSO / Active directory/ External identity provider  
