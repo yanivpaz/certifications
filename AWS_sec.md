@@ -11,6 +11,10 @@ trigger :
 - when configuration changes
 ( all changes , resources , tags - any resource) 
 
+
+remidiation - using system manager
+custom rules -  via Event bridge and Lambda
+
 ## SSO
 Enable SSO for AWS accounts / applications ( ie - Jenkins )  
 Identity source can be AWS SSO / Active directory/ External identity provider  
