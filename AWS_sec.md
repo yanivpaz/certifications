@@ -1,3 +1,7 @@
+## SSO
+https://aws.amazon.com/blogs/security/aws-federated-authentication-with-active-directory-federation-services-ad-fs/  
+
+
 ## VPC scenario
 https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html  
 
