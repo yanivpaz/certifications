@@ -1,5 +1,8 @@
-## SSO
+## SSO with ADFS
 https://aws.amazon.com/blogs/security/aws-federated-authentication-with-active-directory-federation-services-ad-fs/  
+
+https://d1.awsstatic.com/security-center/SecurityBlog/federated_auth_with_adfs_25.dc86ecbfbbf80af3f553e7374d2a55ad1afb7016.png  
+
 
 
 ## VPC scenario
