@@ -1,5 +1,7 @@
 ## Cognito 
-identity pool vs users pool
+TODO : identity pool vs users pool
+https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html
+
 
 ## S3 access
 By default, when another AWS account uploads an object to your S3 bucket, that account (the object writer) owns the object, has access to it, and can grant other users access to it through ACLs. You can use Object Ownership to change this default behavior so that ACLs are disabled and you, as the bucket owner, automatically own every object in your bucket. As a result, access control for your data is based on policies, such as IAM policies, S3 bucket policies, virtual private cloud (VPC) endpoint policies, and AWS Organizations service control policies (SCPs).
