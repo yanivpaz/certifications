@@ -9,7 +9,11 @@ https://d1.awsstatic.com/security-center/SecurityBlog/federated_auth_with_adfs_2
 https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html  
 
 ## Cognito 
-TODO : identity pool vs users pool
+identity pool vs users pool
+user pool - authentication ,authorization 
+identity pool - federation ( ie get access keys to AWS services)
+
+
 https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html
 
 
