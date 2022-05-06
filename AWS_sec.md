@@ -1,4 +1,5 @@
-## Identity managment
+# Identity managment
+## cloud directory
 - native IAM  
 - cognito  
 - simple AD (Samba 4 based ) - used with workdocs  
