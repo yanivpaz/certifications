@@ -1,9 +1,9 @@
 ## Identity managment
-native IAM  
-cognito  
-simple AD (Samba 4)  
-cloud directory - IOT  
-AD / AD connector 
+- native IAM  
+- cognito  
+- simple AD (Samba 4 based ) - used with workdocs  
+- cloud directory - IOT  
+- AD / AD connector 
 
 ### SSO with ADFS
 https://aws.amazon.com/blogs/security/aws-federated-authentication-with-active-directory-federation-services-ad-fs/  
