@@ -1,3 +1,6 @@
+## VPC scenario
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html  
+
 ## Cognito 
 TODO : identity pool vs users pool
 https://docs.aws.amazon.com/cognito/latest/developerguide/identity-pools.html
