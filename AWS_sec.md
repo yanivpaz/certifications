@@ -1,4 +1,9 @@
 # Identity managment
+## coudtrail
+- managment (included in default trail
+- data
+- insight 
+
 ## cloud directory
 - native IAM  
 - cognito  
