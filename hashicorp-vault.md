@@ -24,4 +24,8 @@ vault aidit enable file file_path=/var/log/vault_audit.log
 
 ## Community vs Enterprise 
 
+## Unseal 
+- unseal with key shards
+- unseal with auto unsel 
+- unseal transit selal 
 
