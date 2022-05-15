@@ -1,5 +1,11 @@
+##  Components
+- api
+- storage backend
+- components - audit , acl  , token store etc.
+- barrier ( seal ) on all the components 
+
 ##  Backend 
-official backends are consul and file 
+official storage backends are consul and file 
 
 ## Secrets 
 
@@ -12,6 +18,9 @@ official backends are consul and file
 ```
 vault aidit enable file file_path=/var/log/vault_audit.log 
 ```
+
+## Vault Paths
+- secrets/app,common
 
 ## Community vs Enterprise 
 
