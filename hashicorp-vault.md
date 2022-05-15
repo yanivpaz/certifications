@@ -30,13 +30,18 @@ vault aidit enable file file_path=/var/log/vault_audit.log
 - unseal transit selal 
 
 ## commands
+start server   
 ```
-# Server 
 vault server -dev
 # will generate ~/.vault-token 
+```
 
-# Status
+get status  
+```
 export VAULT_ADDR="http://127.0.0.1:8200"
-vault status
+vault status 
+remarks:
+-  shows that vault is initilized ( vault operator init is not needed )  
 
 ```
+
