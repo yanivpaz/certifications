@@ -29,3 +29,14 @@ vault aidit enable file file_path=/var/log/vault_audit.log
 - unseal with auto unsel 
 - unseal transit selal 
 
+## commands
+```
+# Server 
+vault server -dev
+# will generate ~/.vault-token 
+
+# Status
+export VAULT_ADDR="http://127.0.0.1:8200"
+vault status
+
+```
