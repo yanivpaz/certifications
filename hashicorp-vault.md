@@ -42,6 +42,7 @@ export VAULT_ADDR="http://127.0.0.1:8200"
 vault status 
 remarks:
 -  shows that vault is initilized ( vault operator init is not needed )  
+-  we should replace the the root token  with another authentication method  
 
 ```
 
