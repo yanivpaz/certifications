@@ -1,10 +1,10 @@
 ## Seal 
 * shamir secret sharing   
-- key shares ( key shares , require thresholds, configured during initalization)  
+ key shares ( key shares , require thresholds, configured during initalization)  
 * auto unseal  
-- ie KMS  
+ ie KMS  
 - recovery key shares 
-* transit seal  
+ transit seal  
 
 
  
