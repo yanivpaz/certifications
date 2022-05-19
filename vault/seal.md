@@ -1,13 +1,13 @@
 ## Seal 
-shamir secret sharing 
-- key shares 
-( key shares , require thresholds, configured during initalization)
-
-auto unseal 
-- ie KMS
+* shamir secret sharing   
+- key shares ( key shares , require thresholds, configured during initalization)  
+* auto unseal  
+- ie KMS  
 - recovery key shares 
+* transit seal  
 
-seal migraion is supporte 
+
+ 
 
 rekey - update unseal and master key
 vault operator 
