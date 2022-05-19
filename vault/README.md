@@ -11,6 +11,7 @@ https://github.com/ned1313/Hashicorp-Certified-Vault-Associate-Vault-Management
 [kv](kv.md)   
 [approle](approle.md)  
 [transit](transit.md)  
+[curl](curl.md)  
 
 
 
@@ -83,4 +84,20 @@ alias - Link  entity /group  auth method ( users/groups in AD )
 group  - internal / external
 https://github.com/ned1313/Hashicorp-Certified-Vault-Associate-Vault-Management/tree/main/m5
 
+
+## Clustering
+Node:
+- Active (responsible for all read and write)
+- Standby ( ready to take over )
+- Performance standby - can process read request ( write forward to active nodes)
+
+require load balancer in front of the cluster 
+health check : v1/sys/health ==> 
+200 is active ( initilized and unsealed)
+429 is standby
+503 sealed 
+
+replication - enterprise level feature 
+- DR ( KV , policies ,token - no client response)
+- Performance ( KV , policies - response to client for reads )- for cross data centers / regions 
 
