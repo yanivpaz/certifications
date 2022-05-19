@@ -69,3 +69,22 @@ vault kv metadata get mysecrets/test1
 
 
 vault kv metadata put -max-versions 2 mysecrets/test1
+
+
+
+
+
+vault  secrets enable kv
+vault token capabilities secret/paz
+vault secrets list
+vault secrets enable -path=mysecrets -plugin-name=kv kv
+vault kv put mysecrets/test-secret  yaniv=test
+vault -autocomplete-install
+
+
+
+vault secrets list -detailed
+vault kv list mysecrets
+vault kv delete mysecrets/test-secret
+vault kv metadata delete mysecrets/test-secret (only if secret stay)
+
