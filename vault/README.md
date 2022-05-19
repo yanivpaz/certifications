@@ -35,10 +35,10 @@ Vault secret engine (default is KV /AWS )
 
 
 ## response wrapping
-https://github.com/ned1313/Hashicorp-Certified-Vault-Associate-Getting-Started/blob/main/m7/5-response-wrapping.sh
-vault kv get -wrap-ttl=60m  mysecrets/test-secret
-vault unwrap hvs.CAESIIKLWcxQhj_6_pLGOyitMl9fX5QKTyUeRiL16fVW1c0wGh4KHGh2cy5MbnRScmxaSlhsZVhVbTZKSEFVSU5waU4
-vault unwrap hvs.CAESIIKLWcxQhj_6_pLGOyitMl9fX5QKTyUeRiL16fVW1c0wGh4KHGh2cy5MbnRScmxaSlhsZVhVbTZKSEFVSU5waU4
+https://github.com/ned1313/Hashicorp-Certified-Vault-Associate-Getting-Started/blob/main/m7/5-response-wrapping.sh  
+vault kv get -wrap-ttl=60m  mysecrets/test-secret  
+vault unwrap hvs.CAESIIKLWcxQhj_6_pLGOyitMl9fX5QKTyUeRiL16fVW1c0wGh4KHGh2cy5MbnRScmxaSlhsZVhVbTZKSEFVSU5waU4  
+vault unwrap hvs.CAESIIKLWcxQhj_6_pLGOyitMl9fX5QKTyUeRiL16fVW1c0wGh4KHGh2cy5MbnRScmxaSlhsZVhVbTZKSEFVSU5waU4  
 #second time will fail as is single use 
 
 
