@@ -1,10 +1,19 @@
 Encryption (Transit engine):
-- convergent - deterministic ( aes support  , rsa not supporting)
+- convergent - deterministic ( support in AES   , rsa not supporting)
   encrypted value will always the same all the time regardless the key version .
   less secure
 - each key is actually map of keys 
   - working set - all available keys
   - archive set - can be retrived but not loaded to memory
+
+
+## flow
+- enable
+- add keys (internal / external)
+- view keys
+- encrypt
+- decrypt 
+- rotate
 
 ```
 vault path-help transit/
