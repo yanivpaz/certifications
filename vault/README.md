@@ -28,10 +28,15 @@ Vault authentication ( LDAP /Approle/OIDC/JWT/TLS/AWS /K8s /Okta/Github  )
 
 
 ## Secrets types 
-Vault secret engine (default is KV /AWS ) 
+
+
+Some secrets engines simply store and read data - like encrypted Redis/Memcached. Other secrets engines connect to other services and generate dynamic credentials on demand. Other secrets engines provide encryption as a service, totp generation, certificates, and much more.
+
 1) store : ie - kv https://www.vaultproject.io/docs/secrets/kv
 2) generate: AWS - generate dynamic AWS credantials (support iam,assumed_role,federation_token) /DB /Other
 3) encrypt: transit
+
+
 
 
 ## response wrapping
