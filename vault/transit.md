@@ -6,6 +6,7 @@ Encryption (Transit engine):
   - working set - all available keys
   - archive set - can be retrived but not loaded to memory
 
+```
 vault path-help transit/
 vault write -force transit/keys/ccid
 vault list  transit/keys
@@ -26,3 +27,4 @@ plaintext=$(vault write transit/decrypt/ccid ciphertext=$ciphertext  --format=js
 echo $plaintext | base64 -d
 
 vault write -force transit/keys/ccid/rotate
+```
