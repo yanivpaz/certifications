@@ -15,6 +15,9 @@ Encryption (Transit engine):
 - decrypt 
 - rotate
 
+
+https://github.com/ned1313/Hashicorp-Certified-Vault-Associate-Vault-Management/tree/main/m6
+
 ```
 vault path-help transit/
 vault write -force transit/keys/ccid
