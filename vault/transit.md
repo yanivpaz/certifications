@@ -27,11 +27,13 @@ vault read transit/keys/ccid
 
 #  value should be base64 encoded 
 vault write transit/encrypt/ccid plaintext=$(base64 <<< "124")
+```
+encrypted value with metadata  :    
 ciphertext     vault:v1:XzHaRwI0bJjbthAeVHNQ/ClIvvtzh9a6XHxB2wW31nM=
 
 
-
-vault write transit/decrypt/ccid cyphertext=cypher text 
+```
+vault write transit/decrypt/ccid cyphertext=vault:v1:XzHaRwI0bJjbthAeVHNQ/ClIvvtzh9a6XHxB2wW31nM= 
 json_data=$(vault write transit/encrypt/ccid plaintext=$(base64 <<< "124") --format=json)
 ciphertext=$(echo $json_data |jq .data.ciphertext -r)
 
