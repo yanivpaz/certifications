@@ -16,7 +16,7 @@ https://github.com/ned1313/Hashicorp-Certified-Vault-Associate-Vault-Management
 
 
 ## General terms 
-accessor - view token properties / capabilities/renew or revoke token 
+accessor - view token properties /capabilities/renew or revoke token 
 vault barrier - anything running in the memory
 
 cfg file:
@@ -41,11 +41,12 @@ Some secrets engines simply store and read data - like encrypted Redis/Memcached
 
 ## response wrapping
 https://github.com/ned1313/Hashicorp-Certified-Vault-Associate-Getting-Started/blob/main/m7/5-response-wrapping.sh  
+```
 vault kv get -wrap-ttl=60m  mysecrets/test-secret  
 vault unwrap hvs.CAESIIKLWcxQhj_6_pLGOyitMl9fX5QKTyUeRiL16fVW1c0wGh4KHGh2cy5MbnRScmxaSlhsZVhVbTZKSEFVSU5waU4  
 vault unwrap hvs.CAESIIKLWcxQhj_6_pLGOyitMl9fX5QKTyUeRiL16fVW1c0wGh4KHGh2cy5MbnRScmxaSlhsZVhVbTZKSEFVSU5waU4  
-#second time will fail as is single use 
-
+#second time will fail as is single use  
+```  
 
 
 ## Vault engine
@@ -75,7 +76,7 @@ lease_renewable
 
 
 
-## secret engine
+## secrets engine
 static 
 dynamic
 transit- encryptions 
@@ -98,7 +99,7 @@ Node:
 
 require load balancer in front of the cluster 
 health check : v1/sys/health ==> 
-200 is active ( initilized and unsealed)
+200 is active ( initilized and unsealed )
 429 is standby
 503 sealed 
 
